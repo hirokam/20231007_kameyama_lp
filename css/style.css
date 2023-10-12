@@ -398,11 +398,16 @@ footer {
     margin: 10px 0 0;
 }
 
+.content__company-title-group-flex {
+    display: flex;
+    justify-content: center;
+}
+
 .content__company-title-en {
     font-family: 'Indie Flower', cursive;
     font-size: 11px;
     color: #ac0071;
-    margin: 0 235px;
+    margin: 0 235px 0 0;
     padding: 45px 0 10px;
 }
 
@@ -410,8 +415,14 @@ footer {
     font-size: 17px;
     font-weight: bold;
     color: gray;
-    margin: 0 235px 25px;
+    margin: 0 460px 25px 0;
 }
+
+.content__company-info-group-flex {
+    display: flex;
+    justify-content: center;
+}
+
 
 .content__company-info-over {
     color: gray;
