@@ -195,6 +195,7 @@ article {}
 
 .content__about-description-group {
     display: flex;
+    justify-content: center;
     margin: 25px 170px;
 }
 
@@ -247,6 +248,11 @@ article {}
     justify-content: center;
 }
 
+.content__service-card-img-flex {
+    display: flex;
+    justify-content: center;
+}
+
 .content__service-card-left img {
     width: 30%;
     margin: 30px 117.5px 10px;
@@ -261,6 +267,8 @@ article {}
     font-size: 11px;
     margin: 10px 35px 0;
     line-height: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 .content__service-card-over {
